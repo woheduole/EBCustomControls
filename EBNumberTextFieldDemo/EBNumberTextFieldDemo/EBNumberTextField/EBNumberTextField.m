@@ -16,11 +16,15 @@
 
 - (instancetype)initWithFrame:(CGRect)frame {
     if (self = [super initWithFrame:frame]) {
-        _maxLength = 30;
+        _maxLength = 0;
         EBNumberKeyboardView *numberKeyboardView = [[EBNumberKeyboardView alloc] initWithKeyboardType:EBNumberKeyboardTypeDecimal];
         numberKeyboardView.delegate = self;
         self.inputView = numberKeyboardView;
-        // 当使用第三方键盘管理类IQKeyboardManager，禁用toolBar
+        /*
+         1.当使用第三方键盘管理类IQKeyboardManager，禁用toolBar
+         2.如果没有用到第三方键盘管理可以不加这行代码
+         3.可以把[UIView new]替换成一个自定义的视图来实现IQKeyboardManager的toolbar功能
+         */
         self.inputAccessoryView = [UIView new];
         _numberKeyboardView = numberKeyboardView;
     }
@@ -52,7 +56,7 @@
         }
     }
     NSString *fullText = [self.text stringByAppendingString:text];
-    if (fullText.length > _maxLength) {
+    if (_maxLength >0 && fullText.length > _maxLength) {
         return;
     }
     [self insertText:text];
