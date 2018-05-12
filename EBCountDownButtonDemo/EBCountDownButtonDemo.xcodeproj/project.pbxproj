@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		03BF4B1D208F5C7900144241 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BF4B1C208F5C7900144241 /* AppDelegate.m */; };
+		03BF4B20208F5C7900144241 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BF4B1F208F5C7900144241 /* ViewController.m */; };
+		03BF4B23208F5C7900144241 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BF4B21208F5C7900144241 /* Main.storyboard */; };
+		03BF4B25208F5C7A00144241 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03BF4B24208F5C7A00144241 /* Assets.xcassets */; };
+		03BF4B28208F5C7A00144241 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 03BF4B26208F5C7A00144241 /* LaunchScreen.storyboard */; };
+		03BF4B2B208F5C7A00144241 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BF4B2A208F5C7A00144241 /* main.m */; };
+		03BF4B35208F5CDC00144241 /* EBCountDownButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 03BF4B34208F5CDB00144241 /* EBCountDownButton.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		03BF4B18208F5C7900144241 /* EBCountDownButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EBCountDownButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		03BF4B1B208F5C7900144241 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		03BF4B1C208F5C7900144241 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		03BF4B1E208F5C7900144241 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		03BF4B1F208F5C7900144241 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		03BF4B22208F5C7900144241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		03BF4B24208F5C7A00144241 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		03BF4B27208F5C7A00144241 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		03BF4B29208F5C7A00144241 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		03BF4B2A208F5C7A00144241 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		03BF4B33208F5CDB00144241 /* EBCountDownButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EBCountDownButton.h; sourceTree = "<group>"; };
+		03BF4B34208F5CDB00144241 /* EBCountDownButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EBCountDownButton.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		03BF4B15208F5C7900144241 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		03BF4B0F208F5C7800144241 = {
+			isa = PBXGroup;
+			children = (
+				03BF4B1A208F5C7900144241 /* EBCountDownButtonDemo */,
+				03BF4B19208F5C7900144241 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		03BF4B19208F5C7900144241 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				03BF4B18208F5C7900144241 /* EBCountDownButtonDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		03BF4B1A208F5C7900144241 /* EBCountDownButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				03BF4B32208F5CB300144241 /* EBCountDownButton */,
+				03BF4B1B208F5C7900144241 /* AppDelegate.h */,
+				03BF4B1C208F5C7900144241 /* AppDelegate.m */,
+				03BF4B1E208F5C7900144241 /* ViewController.h */,
+				03BF4B1F208F5C7900144241 /* ViewController.m */,
+				03BF4B21208F5C7900144241 /* Main.storyboard */,
+				03BF4B24208F5C7A00144241 /* Assets.xcassets */,
+				03BF4B26208F5C7A00144241 /* LaunchScreen.storyboard */,
+				03BF4B29208F5C7A00144241 /* Info.plist */,
+				03BF4B2A208F5C7A00144241 /* main.m */,
+			);
+			path = EBCountDownButtonDemo;
+			sourceTree = "<group>";
+		};
+		03BF4B32208F5CB300144241 /* EBCountDownButton */ = {
+			isa = PBXGroup;
+			children = (
+				03BF4B33208F5CDB00144241 /* EBCountDownButton.h */,
+				03BF4B34208F5CDB00144241 /* EBCountDownButton.m */,
+			);
+			path = EBCountDownButton;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		03BF4B17208F5C7900144241 /* EBCountDownButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 03BF4B2E208F5C7A00144241 /* Build configuration list for PBXNativeTarget "EBCountDownButtonDemo" */;
+			buildPhases = (
+				03BF4B14208F5C7900144241 /* Sources */,
+				03BF4B15208F5C7900144241 /* Frameworks */,
+				03BF4B16208F5C7900144241 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = EBCountDownButtonDemo;
+			productName = EBCountDownButtonDemo;
+			productReference = 03BF4B18208F5C7900144241 /* EBCountDownButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		03BF4B10208F5C7800144241 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = HoYo;
+				TargetAttributes = {
+					03BF4B17208F5C7900144241 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = 03BF4B13208F5C7800144241 /* Build configuration list for PBXProject "EBCountDownButtonDemo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 03BF4B0F208F5C7800144241;
+			productRefGroup = 03BF4B19208F5C7900144241 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				03BF4B17208F5C7900144241 /* EBCountDownButtonDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		03BF4B16208F5C7900144241 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BF4B28208F5C7A00144241 /* LaunchScreen.storyboard in Resources */,
+				03BF4B25208F5C7A00144241 /* Assets.xcassets in Resources */,
+				03BF4B23208F5C7900144241 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		03BF4B14208F5C7900144241 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				03BF4B20208F5C7900144241 /* ViewController.m in Sources */,
+				03BF4B2B208F5C7A00144241 /* main.m in Sources */,
+				03BF4B35208F5CDC00144241 /* EBCountDownButton.m in Sources */,
+				03BF4B1D208F5C7900144241 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		03BF4B21208F5C7900144241 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BF4B22208F5C7900144241 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		03BF4B26208F5C7A00144241 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				03BF4B27208F5C7A00144241 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		03BF4B2C208F5C7A00144241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		03BF4B2D208F5C7A00144241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		03BF4B2F208F5C7A00144241 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3WL5Q485E;
+				INFOPLIST_FILE = EBCountDownButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebest.EBCountDownButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		03BF4B30208F5C7A00144241 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = Q3WL5Q485E;
+				INFOPLIST_FILE = EBCountDownButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ebest.EBCountDownButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		03BF4B13208F5C7800144241 /* Build configuration list for PBXProject "EBCountDownButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BF4B2C208F5C7A00144241 /* Debug */,
+				03BF4B2D208F5C7A00144241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		03BF4B2E208F5C7A00144241 /* Build configuration list for PBXNativeTarget "EBCountDownButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				03BF4B2F208F5C7A00144241 /* Debug */,
+				03BF4B30208F5C7A00144241 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 03BF4B10208F5C7800144241 /* Project object */;
+}
