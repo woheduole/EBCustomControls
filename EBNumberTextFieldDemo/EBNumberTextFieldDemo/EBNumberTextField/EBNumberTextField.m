@@ -31,6 +31,14 @@
     return self;
 }
 
+#pragma mark - Methods
+- (NSRange)selectedRange {
+    NSInteger location = [self offsetFromPosition:self.beginningOfDocument toPosition:self.selectedTextRange.start];
+    NSInteger length = [self offsetFromPosition:self.selectedTextRange.start toPosition:self.selectedTextRange.end];
+    NSRange range = NSMakeRange(location, length);
+    return range;
+}
+
 
 #pragma mark - Setter
 - (void)setNumberKeyboardType:(EBNumberKeyboardType)numberKeyboardType {
@@ -59,7 +67,15 @@
     if (_maxLength >0 && fullText.length > _maxLength) {
         return;
     }
-    [self insertText:text];
+    if([self.delegate respondsToSelector:@selector(textField:shouldChangeCharactersInRange:replacementString:)]) {
+        NSRange range = [self selectedRange];
+        BOOL changed = [self.delegate textField:self shouldChangeCharactersInRange:range replacementString:text];
+        if (changed) {
+            [self insertText:text];
+        }
+    }else {
+        [self insertText:text];
+    }
 }
 // 点击完成输入
 - (void)numberKeyboardViewEndEditing:(EBNumberKeyboardView *)keyboardView {
